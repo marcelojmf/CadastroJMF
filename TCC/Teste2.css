@@ -1,0 +1,50 @@
+body{
+    margin: 9;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif ;
+    Background: url(img/futebol.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+table{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5%;
+    border: 2px solid rgb(29, 1, 47);
+    border-spacing: 0;   
+}
+td{
+    border-right: 2px solid rgb(29, 1, 47);
+    border-bottom: 2px solid rgb(29, 1, 47);
+    text-align: center;
+    padding: 1.5%;
+}
+
+tr:nth-child(even){
+    background: rgb(240, 240, 240);
+}
+
+tr:nth-child(odd){
+    background: rgb(142, 225, 246);
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: #fff;
+    background: rgb(46, 231, 255);
+    padding: 5px;
+    width: 35%;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-bottom: 100px;
+}
+a:hover{
+    background: rgb(77, 75, 75);
+}

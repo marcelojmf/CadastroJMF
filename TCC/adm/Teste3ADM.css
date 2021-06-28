@@ -1,0 +1,52 @@
+body{
+  margin: 9;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif ;
+  background-repeat: no-repeat;
+  Background: url(../img/natal1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+table{
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2%;
+  border: 2px solid rgb(0, 0, 0);
+  border-spacing: 0;   
+}
+td{
+  border-right: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  padding: 1%;
+}
+
+tr:nth-child(even){
+  background: rgb(240, 240, 240);
+}
+
+tr:nth-child(odd){
+  background: rgb(219, 38, 38);
+}
+
+
+h1{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 150%;
+}
+a{
+  color: #fff;
+  background: rgb(167, 14, 14);
+  padding: 5px;
+  width: 35%;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+a:hover{
+  background: rgb(77, 75, 75);
+}

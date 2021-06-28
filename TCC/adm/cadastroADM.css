@@ -1,0 +1,123 @@
+body{ /* "*" = representa o site inteiro */
+    margin: 0;/*ESPAÇAMENTO DE FORA*/
+    padding:0;/*ESPAÇAMENTO DE DENTRO*/
+    box-sizing: border-box;/*COLOCA OS OBJETOS EM CAIXAS*/
+    font-family: Arial; /*DEFINE A FONTE*/
+    outline: 0;
+    Background: url(../img/feira1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+   
+    
+}
+form{
+    display:flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 55%;
+    border: 1px solid #808080;
+    box-shadow: 1px 1px 6px 1px #808080; /*sombra :D*/
+    background: black;
+    padding: 1%;
+}
+label{
+    margin:1%;
+    color: #fff;
+}
+input{
+    margin: 1%;
+    border: 1px solid #808080;
+    background: black;
+    padding: 2%;
+    color:#fff;
+    
+
+}
+button{
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2%;
+    background: lightblue;
+    transition: background-color 1s;
+
+}
+button:hover,button:focus{
+    background: rgb(14, 120, 155);
+
+}
+
+.nmr{
+    padding: 2%;
+    margin-left: 5%;
+    width: 10%;
+}
+.name{
+    width: 70%;
+}
+
+table{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid #000;
+    border-spacing: 0;
+    background: #fff;
+}
+
+
+td{
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    text-align: center;
+    padding: 0.5%;
+} 
+.delete{
+    text-decoration: none;
+    background: red;
+    color: #fff;
+    font-size: 150%;
+    padding: 3% 3%;
+    border-radius: 100%;
+}
+.editar{
+    text-decoration: none;
+    background: rgb(10, 180, 25);
+    color: #fff;
+    font-size: 150%;
+    padding: 3% 3%;
+    border-radius: 100%;
+}
+h1{
+    color: #fff;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+a{
+    color: #000;
+    background: lightblue;
+    padding: 5px;
+    width: 35%;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+a:hover{
+    background: rgb(14, 120, 155);
+}
+tr:nth-child(even){
+    background: rgb(240, 240, 240);
+}
+
+tr:nth-child(odd){
+    background: rgb(142, 225, 246);
+}

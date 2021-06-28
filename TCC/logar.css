@@ -1,0 +1,45 @@
+body{
+    background: url(img/banner.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 35%;
+    border: 1px solid #808080;
+    box-shadow: 1px 1px 8px 1px #808080; /*sombra :D*/
+    padding: 3%;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 3%;
+}
+
+input{
+    margin: 0 0 3% 0;
+}
+button{
+    margin-top: 3%;
+    width: 200px;
+    margin-left: 20%;
+    background: rgb(24, 24, 235);
+    color:#fff;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+}
+
+/*<?php
+    ob_start();
+    session_start();
+    if(isset($_SESSION["email"]) && isset($_SESSION["senha"])){
+        header("Location: projeto.php");
+    }
+
+?>*/

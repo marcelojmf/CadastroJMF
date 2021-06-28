@@ -1,0 +1,55 @@
+body{
+    margin: 9;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif ;
+    Background: url(img/feira1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Arial; /*DEFINE A FONTE*/
+    outline: 0;
+    background-attachment: fixed;
+   
+}
+
+table{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    border: 2px solid rgb(0, 0, 0);
+    border-spacing: 0;   
+}
+td{
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 1%;
+}
+
+tr:nth-child(even){
+    background: rgb(240, 240, 240);
+}
+
+tr:nth-child(odd){
+    background: rgb(142, 225, 246);
+}
+
+h1{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+a{
+    color: #000;
+    background: lightblue;
+    padding: 5px;
+    width: 35%;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+a:hover{
+    background: rgb(77, 75, 75);
+}
